@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [takeScreenShots.TakeScreenShotOnFailTest]" verbose="0">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="takeScreenShots.TakeScreenShotOnFailTest">
+        <methods>
+          <include name="getScreenShot"/>
+          <include name="startApp"/>
+          <include name="validateTitle"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- takeScreenShots.TakeScreenShotOnFailTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [takeScreenShots.TakeScreenShotOnFailTest] -->

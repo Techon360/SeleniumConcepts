@@ -6,13 +6,25 @@
 <listener class-name="screenshotTestNGListener.ListenerClass" />
 </listeners>
 
-  <test name="Test">
+  <test name="Test1">
     <classes>
       <class name="screenshotTestNGListener.TakeScreenshotTestNGListener"/>
     </classes>
   </test> 
   
-   <test name="Test1">
+   <test name="Test2">
+    <classes>
+      <class name="screenshotTestNGListener.TakeScreenshotTestNGListener2"/>
+    </classes>
+  </test> 
+  
+   <test name="Test3">
+    <classes>
+      <class name="screenshotTestNGListener.TakeScreenshotTestNGListener"/>
+    </classes>
+  </test> 
+  
+   <test name="Test4">
     <classes>
       <class name="screenshotTestNGListener.TakeScreenshotTestNGListener2"/>
     </classes>

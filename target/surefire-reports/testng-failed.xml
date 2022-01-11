@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]" verbose="0">
+  <listeners>
+    <listener class-name="screenshotTestNGListener.ListenerClass"/>
+  </listeners>
+  <test parallel="tests" name="Test1(failed)">
+    <classes>
+      <class name="screenshotTestNGListener.TakeScreenshotTestNGListener">
+        <methods>
+          <include name="startApp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- screenshotTestNGListener.TakeScreenshotTestNGListener -->
+      <class name="screenshotTestNGListener.TakeScreenshotTestNGListener2">
+        <methods>
+          <include name="startApp"/>
+          <include name="validateTitle999"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- screenshotTestNGListener.TakeScreenshotTestNGListener2 -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+  <test parallel="tests" name="Test(failed)">
+    <classes>
+      <class name="screenshotTestNGListener.TakeScreenshotTestNGListener">
+        <methods>
+          <include name="startApp"/>
+          <include name="validateTitle123"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- screenshotTestNGListener.TakeScreenshotTestNGListener -->
+      <class name="screenshotTestNGListener.TakeScreenshotTestNGListener2">
+        <methods>
+          <include name="startApp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- screenshotTestNGListener.TakeScreenshotTestNGListener2 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: takeScreenShots.TakeScreenShotOnFailTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 14.827 s <<< FAILURE! - in takeScreenShots.TakeScreenShotOnFailTest
+takeScreenShots.TakeScreenShotOnFailTest.validateTitle  Time elapsed: 7.159 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at takeScreenShots.TakeScreenShotOnFailTest.validateTitle(TakeScreenShotOnFailTest.java:60)
+
