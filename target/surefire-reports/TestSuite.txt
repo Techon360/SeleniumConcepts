@@ -1,12 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 4, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 13.845 s <<< FAILURE! - in TestSuite
-screenshotTestNGListener.TakeScreenshotTestNGListener2.validateTitle999  Time elapsed: 0.819 s  <<< FAILURE!
-java.lang.AssertionError: expected [Webnetram-Login] but found [Webnetram-Login1]
-	at screenshotTestNGListener.TakeScreenshotTestNGListener2.validateTitle999(TakeScreenshotTestNGListener2.java:16)
-
-screenshotTestNGListener.TakeScreenshotTestNGListener.validateTitle123  Time elapsed: 0.288 s  <<< FAILURE!
-java.lang.AssertionError: expected [Webnetram-Login] but found [Webnetram-Login23]
-	at screenshotTestNGListener.TakeScreenshotTestNGListener.validateTitle123(TakeScreenshotTestNGListener.java:24)
-
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 18.136 s - in TestSuite

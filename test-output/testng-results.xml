@@ -2,20 +2,20 @@
 <testng-results total="2" passed="1" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-01-11T10:58:38Z" name="Default suite" finished-at="2022-01-11T10:58:52Z" duration-ms="13792">
+  <suite started-at="2022-01-11T13:10:54Z" name="Suite" finished-at="2022-01-11T13:11:06Z" duration-ms="12690">
     <groups>
     </groups>
-    <test started-at="2022-01-11T10:58:38Z" name="Default test" finished-at="2022-01-11T10:58:52Z" duration-ms="13792">
-      <class name="readFromPropertiesFile.TakeScreenshotTestNGListener">
-        <test-method is-config="true" signature="startApp()[pri:0, instance:readFromPropertiesFile.TakeScreenshotTestNGListener@4a3631f8]" started-at="2022-01-11T16:28:38Z" name="startApp" finished-at="2022-01-11T16:28:52Z" duration-ms="13653" status="PASS">
+    <test started-at="2022-01-11T13:10:54Z" name="Test" finished-at="2022-01-11T13:11:06Z" duration-ms="12690">
+      <class name="selectbrowserFormJenkinsOption.SelectBrowserOptionFromJenkins">
+        <test-method is-config="true" signature="startApp()[pri:0, instance:selectbrowserFormJenkinsOption.SelectBrowserOptionFromJenkins@4a3631f8]" started-at="2022-01-11T18:40:54Z" name="startApp" finished-at="2022-01-11T18:41:06Z" duration-ms="12380" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startApp -->
-        <test-method signature="validateTitle()[pri:0, instance:readFromPropertiesFile.TakeScreenshotTestNGListener@4a3631f8]" started-at="2022-01-11T16:28:52Z" name="validateTitle" finished-at="2022-01-11T16:28:52Z" duration-ms="26" status="PASS">
+        <test-method signature="validateTitle()[pri:0, instance:selectbrowserFormJenkinsOption.SelectBrowserOptionFromJenkins@4a3631f8]" started-at="2022-01-11T18:41:06Z" name="validateTitle" finished-at="2022-01-11T18:41:06Z" duration-ms="26" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateTitle -->
-        <test-method signature="validateTitle123()[pri:0, instance:readFromPropertiesFile.TakeScreenshotTestNGListener@4a3631f8]" started-at="2022-01-11T16:28:52Z" name="validateTitle123" finished-at="2022-01-11T16:28:52Z" duration-ms="6" status="FAIL">
+        <test-method signature="validateTitle123()[pri:0, instance:selectbrowserFormJenkinsOption.SelectBrowserOptionFromJenkins@4a3631f8]" started-at="2022-01-11T18:41:06Z" name="validateTitle123" finished-at="2022-01-11T18:41:06Z" duration-ms="72" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [Webnetram-Login] but found [Webnetram-Login23]]]>
@@ -27,7 +27,7 @@
 	at org.testng.Assert.assertEquals(Assert.java:123)
 	at org.testng.Assert.assertEquals(Assert.java:176)
 	at org.testng.Assert.assertEquals(Assert.java:186)
-	at readFromPropertiesFile.TakeScreenshotTestNGListener.validateTitle123(TakeScreenshotTestNGListener.java:22)
+	at selectbrowserFormJenkinsOption.SelectBrowserOptionFromJenkins.validateTitle123(SelectBrowserOptionFromJenkins.java:22)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -58,11 +58,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateTitle123 -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:readFromPropertiesFile.TakeScreenshotTestNGListener@4a3631f8]" started-at="2022-01-11T16:28:52Z" name="tearDown" finished-at="2022-01-11T16:28:52Z" duration-ms="91" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:selectbrowserFormJenkinsOption.SelectBrowserOptionFromJenkins@4a3631f8]" started-at="2022-01-11T18:41:06Z" name="tearDown" finished-at="2022-01-11T18:41:06Z" duration-ms="196" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- readFromPropertiesFile.TakeScreenshotTestNGListener -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- selectbrowserFormJenkinsOption.SelectBrowserOptionFromJenkins -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
