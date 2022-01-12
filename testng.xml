@@ -3,18 +3,18 @@
 <suite name="Suite" parallel="tests">
 
 <listeners>
-<listener class-name="extentReportGeneration.ListenerClass" />
+<listener class-name="extentReportWithScreenShot.ListenerClass" />
 </listeners>
 
   <test  name="Test1">
     <classes>
-      <class name="extentReportGeneration.ExtentReportDemo"/>
+      <class name="extentReportWithScreenShot.ExtentReportDemo"/>
     </classes>
   </test> 
   
   <test  name="Test2">
     <classes>
-      <class name="extentReportGeneration.ExtentReportDemo2"/>
+      <class name="extentReportWithScreenShot.ExtentReportDemo2"/>
     </classes>
   </test> 
   

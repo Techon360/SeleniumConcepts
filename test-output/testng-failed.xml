@@ -2,75 +2,75 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite parallel="tests" name="Failed suite [Suite]">
   <listeners>
-    <listener class-name="extentReportGeneration.ListenerClass"/>
+    <listener class-name="extentReportWithScreenShot.ListenerClass"/>
   </listeners>
-  <test parallel="tests" name="Test3(failed)">
-    <classes>
-      <class name="extentReportGeneration.ExtentReportDemo3">
-        <methods>
-          <include name="startApp"/>
-          <include name="validateTitle123"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- extentReportGeneration.ExtentReportDemo3 -->
-      <class name="extentReportGeneration.ExtentReportDemo">
-        <methods>
-          <include name="startApp"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- extentReportGeneration.ExtentReportDemo -->
-      <class name="extentReportGeneration.ExtentReportDemo2">
-        <methods>
-          <include name="startApp"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- extentReportGeneration.ExtentReportDemo2 -->
-    </classes>
-  </test> <!-- Test3(failed) -->
   <test parallel="tests" name="Test1(failed)">
     <classes>
+      <class name="extentReportWithScreenShot.ExtentReportDemo">
+        <methods>
+          <include name="validateTitle2"/>
+          <include name="tearDown"/>
+          <include name="startApp"/>
+        </methods>
+      </class> <!-- extentReportWithScreenShot.ExtentReportDemo -->
       <class name="extentReportGeneration.ExtentReportDemo3">
         <methods>
           <include name="startApp"/>
           <include name="tearDown"/>
         </methods>
       </class> <!-- extentReportGeneration.ExtentReportDemo3 -->
-      <class name="extentReportGeneration.ExtentReportDemo">
+      <class name="extentReportWithScreenShot.ExtentReportDemo2">
         <methods>
-          <include name="validateTitle123"/>
-          <include name="startApp"/>
           <include name="tearDown"/>
-        </methods>
-      </class> <!-- extentReportGeneration.ExtentReportDemo -->
-      <class name="extentReportGeneration.ExtentReportDemo2">
-        <methods>
           <include name="startApp"/>
-          <include name="tearDown"/>
         </methods>
-      </class> <!-- extentReportGeneration.ExtentReportDemo2 -->
+      </class> <!-- extentReportWithScreenShot.ExtentReportDemo2 -->
     </classes>
   </test> <!-- Test1(failed) -->
   <test parallel="tests" name="Test2(failed)">
     <classes>
+      <class name="extentReportWithScreenShot.ExtentReportDemo">
+        <methods>
+          <include name="tearDown"/>
+          <include name="startApp"/>
+        </methods>
+      </class> <!-- extentReportWithScreenShot.ExtentReportDemo -->
       <class name="extentReportGeneration.ExtentReportDemo3">
         <methods>
           <include name="startApp"/>
           <include name="tearDown"/>
         </methods>
       </class> <!-- extentReportGeneration.ExtentReportDemo3 -->
-      <class name="extentReportGeneration.ExtentReportDemo">
+      <class name="extentReportWithScreenShot.ExtentReportDemo2">
         <methods>
-          <include name="startApp"/>
+          <include name="validateTitle4"/>
           <include name="tearDown"/>
-        </methods>
-      </class> <!-- extentReportGeneration.ExtentReportDemo -->
-      <class name="extentReportGeneration.ExtentReportDemo2">
-        <methods>
           <include name="startApp"/>
-          <include name="validateTitle123"/>
-          <include name="tearDown"/>
         </methods>
-      </class> <!-- extentReportGeneration.ExtentReportDemo2 -->
+      </class> <!-- extentReportWithScreenShot.ExtentReportDemo2 -->
     </classes>
   </test> <!-- Test2(failed) -->
+  <test parallel="tests" name="Test3(failed)">
+    <classes>
+      <class name="extentReportWithScreenShot.ExtentReportDemo">
+        <methods>
+          <include name="tearDown"/>
+          <include name="startApp"/>
+        </methods>
+      </class> <!-- extentReportWithScreenShot.ExtentReportDemo -->
+      <class name="extentReportGeneration.ExtentReportDemo3">
+        <methods>
+          <include name="startApp"/>
+          <include name="tearDown"/>
+          <include name="validateTitle7"/>
+        </methods>
+      </class> <!-- extentReportGeneration.ExtentReportDemo3 -->
+      <class name="extentReportWithScreenShot.ExtentReportDemo2">
+        <methods>
+          <include name="tearDown"/>
+          <include name="startApp"/>
+        </methods>
+      </class> <!-- extentReportWithScreenShot.ExtentReportDemo2 -->
+    </classes>
+  </test> <!-- Test3(failed) -->
 </suite> <!-- Failed suite [Suite] -->

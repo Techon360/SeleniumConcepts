@@ -1,0 +1,27 @@
+package extentReportWithScreenShot;
+
+import java.io.IOException;
+
+import org.testng.Assert;
+import org.testng.annotations.Test;
+
+
+public class ExtentReportDemo3 extends BaseClass {
+
+	@Test
+	public void validateTitle5() throws IOException
+	{
+		driver.get("http://webnetram.elihealthsupport.com:6002/login");
+		String title=driver.getTitle();
+		Assert.assertEquals("Webnetram-Login", title);
+	}
+	
+	@Test
+	public void validateTitle6() throws IOException
+	{
+		driver.get("http://webnetram.elihealthsupport.com:6002/login");
+		String title=driver.getTitle();
+		Assert.assertEquals("Webnetram-Login23", title);
+	}
+
+}

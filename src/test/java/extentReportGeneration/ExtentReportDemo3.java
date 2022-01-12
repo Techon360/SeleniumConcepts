@@ -9,7 +9,7 @@ import org.testng.annotations.Test;
 public class ExtentReportDemo3 extends BaseClass {
 
 	@Test
-	public void validateTitle() throws IOException
+	public void validateTitle8() throws IOException
 	{
 		driver.get("http://webnetram.elihealthsupport.com:6002/login");
 		String title=driver.getTitle();
@@ -17,7 +17,7 @@ public class ExtentReportDemo3 extends BaseClass {
 	}
 	
 	@Test
-	public void validateTitle123() throws IOException
+	public void validateTitle7() throws IOException
 	{
 		driver.get("http://webnetram.elihealthsupport.com:6002/login");
 		String title=driver.getTitle();

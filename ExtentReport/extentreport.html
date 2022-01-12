@@ -44,7 +44,7 @@
 		<!-- nav-right -->
 		<ul id='nav-mobile' class='right hide-on-med-and-down nav-right'>
 			<a href='#!'>
-			<span class='label blue darken-3 suite-start-time'>Jan 12, 2022 08:31:46 AM</span>
+			<span class='label blue darken-3 suite-start-time'>Jan 12, 2022 12:27:34 PM</span>
 			</a>
 		</ul>
 	</div>
@@ -124,17 +124,17 @@
 </div>	<div class='subview-left left'>
 		<div class='view-summary'>
 			<ul id='test-collection' class='test-collection'>
-				<li class='test displayed active  pass' status='pass' bdd='false' test-id='1'>
+				<li class='test displayed active  fail' status='fail' bdd='false' test-id='1'>
 					<div class='test-heading'>
-						<span class='test-name'>validateTitle</span>
-						<span class='test-time'>Jan 12, 2022 08:32:20 AM</span>
-						<span class='test-status right pass'>pass</span>
+						<span class='test-name'>validateTitle7</span>
+						<span class='test-time'>Jan 12, 2022 12:27:40 PM</span>
+						<span class='test-status right fail'>fail</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>Jan 12, 2022 08:32:20 AM</span>
-	<span class='label end-time'>Jan 12, 2022 08:32:42 AM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 21s+887ms</span>
+	<span class='label start-time'>Jan 12, 2022 12:27:40 PM</span>
+	<span class='label end-time'>Jan 12, 2022 12:27:52 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 11s+230ms</span>
 </div>
 <div class='test-steps'>
 	<table class='bordered table-results'>
@@ -146,30 +146,68 @@
 			</tr>
 		</thead>
 		<tbody>
-			<tr class='log' status='pass'>
-				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-				<td class='timestamp'>8:32:42 AM</td>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:27:52 PM</td>
 				<td class='step-details'>
-						PASSED
+						FAILED
+					
+				</td>
+			</tr>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>12:27:52 PM</td>
+				<td class='step-details'>
+						<pre>java.lang.AssertionError: expected [Webnetram-Login] but found [Webnetram-Login23]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:176)
+	at org.testng.Assert.assertEquals(Assert.java:186)
+	at extentReportGeneration.ExtentReportDemo3.validateTitle7(ExtentReportDemo3.java:24)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:37)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:368)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+</pre>
 					
 				</td>
 			</tr>
 		</tbody>
 	</table>
 </div>
+						<ul class='screenshots'>
+							<li><img class='r-img' onerror='this.style.display="none"' data-featherlight='D:\Vimal Data 01-11-2021\Automation tools\SeleniumConcepts\SeleniumConcepts\NormalScreenshotsTestNG\validateTitle7.png' src='D:\Vimal Data 01-11-2021\Automation tools\SeleniumConcepts\SeleniumConcepts\NormalScreenshotsTestNG\validateTitle7.png' data-src='D:\Vimal Data 01-11-2021\Automation tools\SeleniumConcepts\SeleniumConcepts\NormalScreenshotsTestNG\validateTitle7.png'></li>
+						</ul>
 					</div>
 				</li>
 				<li class='test displayed active  pass' status='pass' bdd='false' test-id='2'>
 					<div class='test-heading'>
-						<span class='test-name'>validateTitle</span>
-						<span class='test-time'>Jan 12, 2022 08:32:20 AM</span>
+						<span class='test-name'>validateTitle3</span>
+						<span class='test-time'>Jan 12, 2022 12:27:41 PM</span>
 						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>Jan 12, 2022 08:32:20 AM</span>
-	<span class='label end-time'>Jan 12, 2022 08:32:43 AM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 23s+280ms</span>
+	<span class='label start-time'>Jan 12, 2022 12:27:41 PM</span>
+	<span class='label end-time'>Jan 12, 2022 12:27:47 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 5s+831ms</span>
 </div>
 <div class='test-steps'>
 	<table class='bordered table-results'>
@@ -183,7 +221,7 @@
 		<tbody>
 			<tr class='log' status='pass'>
 				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-				<td class='timestamp'>8:32:43 AM</td>
+				<td class='timestamp'>12:27:47 PM</td>
 				<td class='step-details'>
 						PASSED
 					
@@ -196,15 +234,15 @@
 				</li>
 				<li class='test displayed active  pass' status='pass' bdd='false' test-id='3'>
 					<div class='test-heading'>
-						<span class='test-name'>validateTitle</span>
-						<span class='test-time'>Jan 12, 2022 08:32:24 AM</span>
+						<span class='test-name'>validateTitle1</span>
+						<span class='test-time'>Jan 12, 2022 12:27:41 PM</span>
 						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>Jan 12, 2022 08:32:24 AM</span>
-	<span class='label end-time'>Jan 12, 2022 08:32:44 AM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 20s+148ms</span>
+	<span class='label start-time'>Jan 12, 2022 12:27:41 PM</span>
+	<span class='label end-time'>Jan 12, 2022 12:27:45 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 3s+938ms</span>
 </div>
 <div class='test-steps'>
 	<table class='bordered table-results'>
@@ -218,7 +256,7 @@
 		<tbody>
 			<tr class='log' status='pass'>
 				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-				<td class='timestamp'>8:32:44 AM</td>
+				<td class='timestamp'>12:27:45 PM</td>
 				<td class='step-details'>
 						PASSED
 					
@@ -231,15 +269,15 @@
 				</li>
 				<li class='test displayed active  fail' status='fail' bdd='false' test-id='4'>
 					<div class='test-heading'>
-						<span class='test-name'>validateTitle123</span>
-						<span class='test-time'>Jan 12, 2022 08:32:42 AM</span>
+						<span class='test-name'>validateTitle2</span>
+						<span class='test-time'>Jan 12, 2022 12:27:45 PM</span>
 						<span class='test-status right fail'>fail</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>Jan 12, 2022 08:32:42 AM</span>
-	<span class='label end-time'>Jan 12, 2022 08:32:52 AM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 10s+213ms</span>
+	<span class='label start-time'>Jan 12, 2022 12:27:45 PM</span>
+	<span class='label end-time'>Jan 12, 2022 12:27:45 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+552ms</span>
 </div>
 <div class='test-steps'>
 	<table class='bordered table-results'>
@@ -253,7 +291,7 @@
 		<tbody>
 			<tr class='log' status='fail'>
 				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
-				<td class='timestamp'>8:32:52 AM</td>
+				<td class='timestamp'>12:27:45 PM</td>
 				<td class='step-details'>
 						FAILED
 					
@@ -261,7 +299,7 @@
 			</tr>
 			<tr class='log' status='fail'>
 				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
-				<td class='timestamp'>8:32:52 AM</td>
+				<td class='timestamp'>12:27:45 PM</td>
 				<td class='step-details'>
 						<pre>java.lang.AssertionError: expected [Webnetram-Login] but found [Webnetram-Login23]
 	at org.testng.Assert.fail(Assert.java:94)
@@ -269,11 +307,11 @@
 	at org.testng.Assert.assertEquals(Assert.java:123)
 	at org.testng.Assert.assertEquals(Assert.java:176)
 	at org.testng.Assert.assertEquals(Assert.java:186)
-	at extentReportGeneration.ExtentReportDemo.validateTitle123(ExtentReportDemo.java:24)
+	at extentReportWithScreenShot.ExtentReportDemo.validateTitle2(ExtentReportDemo.java:24)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
 	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
 	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
@@ -287,9 +325,9 @@
 	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:368)
 	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
-	at java.base/java.lang.Thread.run(Thread.java:831)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
 </pre>
 					
 				</td>
@@ -297,19 +335,22 @@
 		</tbody>
 	</table>
 </div>
+						<ul class='screenshots'>
+							<li><img class='r-img' onerror='this.style.display="none"' data-featherlight='D:\Vimal Data 01-11-2021\Automation tools\SeleniumConcepts\SeleniumConcepts\NormalScreenshotsTestNG\validateTitle2.png' src='D:\Vimal Data 01-11-2021\Automation tools\SeleniumConcepts\SeleniumConcepts\NormalScreenshotsTestNG\validateTitle2.png' data-src='D:\Vimal Data 01-11-2021\Automation tools\SeleniumConcepts\SeleniumConcepts\NormalScreenshotsTestNG\validateTitle2.png'></li>
+						</ul>
 					</div>
 				</li>
 				<li class='test displayed active  fail' status='fail' bdd='false' test-id='5'>
 					<div class='test-heading'>
-						<span class='test-name'>validateTitle123</span>
-						<span class='test-time'>Jan 12, 2022 08:32:43 AM</span>
+						<span class='test-name'>validateTitle4</span>
+						<span class='test-time'>Jan 12, 2022 12:27:47 PM</span>
 						<span class='test-status right fail'>fail</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>Jan 12, 2022 08:32:43 AM</span>
-	<span class='label end-time'>Jan 12, 2022 08:32:46 AM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 2s+936ms</span>
+	<span class='label start-time'>Jan 12, 2022 12:27:47 PM</span>
+	<span class='label end-time'>Jan 12, 2022 12:27:47 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+577ms</span>
 </div>
 <div class='test-steps'>
 	<table class='bordered table-results'>
@@ -323,7 +364,7 @@
 		<tbody>
 			<tr class='log' status='fail'>
 				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
-				<td class='timestamp'>8:32:46 AM</td>
+				<td class='timestamp'>12:27:47 PM</td>
 				<td class='step-details'>
 						FAILED
 					
@@ -331,7 +372,7 @@
 			</tr>
 			<tr class='log' status='fail'>
 				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
-				<td class='timestamp'>8:32:46 AM</td>
+				<td class='timestamp'>12:27:47 PM</td>
 				<td class='step-details'>
 						<pre>java.lang.AssertionError: expected [Webnetram-Login] but found [Webnetram-Login23]
 	at org.testng.Assert.fail(Assert.java:94)
@@ -339,11 +380,11 @@
 	at org.testng.Assert.assertEquals(Assert.java:123)
 	at org.testng.Assert.assertEquals(Assert.java:176)
 	at org.testng.Assert.assertEquals(Assert.java:186)
-	at extentReportGeneration.ExtentReportDemo2.validateTitle123(ExtentReportDemo2.java:24)
+	at extentReportWithScreenShot.ExtentReportDemo2.validateTitle4(ExtentReportDemo2.java:24)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
 	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
 	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
@@ -357,9 +398,9 @@
 	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:368)
 	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
-	at java.base/java.lang.Thread.run(Thread.java:831)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
 </pre>
 					
 				</td>
@@ -367,19 +408,22 @@
 		</tbody>
 	</table>
 </div>
+						<ul class='screenshots'>
+							<li><img class='r-img' onerror='this.style.display="none"' data-featherlight='D:\Vimal Data 01-11-2021\Automation tools\SeleniumConcepts\SeleniumConcepts\NormalScreenshotsTestNG\validateTitle4.png' src='D:\Vimal Data 01-11-2021\Automation tools\SeleniumConcepts\SeleniumConcepts\NormalScreenshotsTestNG\validateTitle4.png' data-src='D:\Vimal Data 01-11-2021\Automation tools\SeleniumConcepts\SeleniumConcepts\NormalScreenshotsTestNG\validateTitle4.png'></li>
+						</ul>
 					</div>
 				</li>
-				<li class='test displayed active  fail' status='fail' bdd='false' test-id='6'>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='6'>
 					<div class='test-heading'>
-						<span class='test-name'>validateTitle123</span>
-						<span class='test-time'>Jan 12, 2022 08:32:44 AM</span>
-						<span class='test-status right fail'>fail</span>
+						<span class='test-name'>validateTitle8</span>
+						<span class='test-time'>Jan 12, 2022 12:27:52 PM</span>
+						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>Jan 12, 2022 08:32:44 AM</span>
-	<span class='label end-time'>Jan 12, 2022 08:32:46 AM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 1s+708ms</span>
+	<span class='label start-time'>Jan 12, 2022 12:27:52 PM</span>
+	<span class='label end-time'>Jan 12, 2022 12:27:53 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+480ms</span>
 </div>
 <div class='test-steps'>
 	<table class='bordered table-results'>
@@ -391,46 +435,11 @@
 			</tr>
 		</thead>
 		<tbody>
-			<tr class='log' status='fail'>
-				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
-				<td class='timestamp'>8:32:46 AM</td>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>12:27:53 PM</td>
 				<td class='step-details'>
-						FAILED
-					
-				</td>
-			</tr>
-			<tr class='log' status='fail'>
-				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
-				<td class='timestamp'>8:32:46 AM</td>
-				<td class='step-details'>
-						<pre>java.lang.AssertionError: expected [Webnetram-Login] but found [Webnetram-Login23]
-	at org.testng.Assert.fail(Assert.java:94)
-	at org.testng.Assert.failNotEquals(Assert.java:494)
-	at org.testng.Assert.assertEquals(Assert.java:123)
-	at org.testng.Assert.assertEquals(Assert.java:176)
-	at org.testng.Assert.assertEquals(Assert.java:186)
-	at extentReportGeneration.ExtentReportDemo3.validateTitle123(ExtentReportDemo3.java:24)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
-	at org.testng.TestRunner.privateRun(TestRunner.java:767)
-	at org.testng.TestRunner.run(TestRunner.java:617)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
-	at org.testng.SuiteRunner.access$000(SuiteRunner.java:37)
-	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:368)
-	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
-	at java.base/java.lang.Thread.run(Thread.java:831)
-</pre>
+						PASSED
 					
 				</td>
 			</tr>
@@ -495,8 +504,8 @@
 								</thead>
 								<tbody>
 									<tr>
-										<td>Jan 12, 2022 08:32:44 AM</td>
-										<td class='linked' test-id='6'>validateTitle123</td>
+										<td>Jan 12, 2022 12:27:45 PM</td>
+										<td class='linked' test-id='4'>validateTitle2</td>
 										<td>
 											<pre>java.lang.AssertionError: expected [Webnetram-Login] but found [Webnetram-Login23]
 	at org.testng.Assert.fail(Assert.java:94)
@@ -504,11 +513,11 @@
 	at org.testng.Assert.assertEquals(Assert.java:123)
 	at org.testng.Assert.assertEquals(Assert.java:176)
 	at org.testng.Assert.assertEquals(Assert.java:186)
-	at extentReportGeneration.ExtentReportDemo3.validateTitle123(ExtentReportDemo3.java:24)
+	at extentReportWithScreenShot.ExtentReportDemo.validateTitle2(ExtentReportDemo.java:24)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
 	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
 	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
@@ -522,15 +531,15 @@
 	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:368)
 	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
-	at java.base/java.lang.Thread.run(Thread.java:831)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
 </pre>
 										</td>
 									</tr>
 									<tr>
-										<td>Jan 12, 2022 08:32:43 AM</td>
-										<td class='linked' test-id='5'>validateTitle123</td>
+										<td>Jan 12, 2022 12:27:47 PM</td>
+										<td class='linked' test-id='5'>validateTitle4</td>
 										<td>
 											<pre>java.lang.AssertionError: expected [Webnetram-Login] but found [Webnetram-Login23]
 	at org.testng.Assert.fail(Assert.java:94)
@@ -538,11 +547,11 @@
 	at org.testng.Assert.assertEquals(Assert.java:123)
 	at org.testng.Assert.assertEquals(Assert.java:176)
 	at org.testng.Assert.assertEquals(Assert.java:186)
-	at extentReportGeneration.ExtentReportDemo2.validateTitle123(ExtentReportDemo2.java:24)
+	at extentReportWithScreenShot.ExtentReportDemo2.validateTitle4(ExtentReportDemo2.java:24)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
 	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
 	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
@@ -556,15 +565,15 @@
 	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:368)
 	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
-	at java.base/java.lang.Thread.run(Thread.java:831)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
 </pre>
 										</td>
 									</tr>
 									<tr>
-										<td>Jan 12, 2022 08:32:42 AM</td>
-										<td class='linked' test-id='4'>validateTitle123</td>
+										<td>Jan 12, 2022 12:27:40 PM</td>
+										<td class='linked' test-id='1'>validateTitle7</td>
 										<td>
 											<pre>java.lang.AssertionError: expected [Webnetram-Login] but found [Webnetram-Login23]
 	at org.testng.Assert.fail(Assert.java:94)
@@ -572,11 +581,11 @@
 	at org.testng.Assert.assertEquals(Assert.java:123)
 	at org.testng.Assert.assertEquals(Assert.java:176)
 	at org.testng.Assert.assertEquals(Assert.java:186)
-	at extentReportGeneration.ExtentReportDemo.validateTitle123(ExtentReportDemo.java:24)
+	at extentReportGeneration.ExtentReportDemo3.validateTitle7(ExtentReportDemo3.java:24)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
 	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
 	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
@@ -590,9 +599,9 @@
 	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:368)
 	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
-	at java.base/java.lang.Thread.run(Thread.java:831)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
 </pre>
 										</td>
 									</tr>
@@ -630,13 +639,13 @@
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Start
-					<div class='panel-lead'>Jan 12, 2022 08:31:46 AM</div>
+					<div class='panel-lead'>Jan 12, 2022 12:27:34 PM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 			 		End
-			 		<div class='panel-lead'>Jan 12, 2022 08:31:46 AM</div>
+			 		<div class='panel-lead'>Jan 12, 2022 12:27:34 PM</div>
 				</div>
 			</div>
 			<div class='col s2'>
@@ -704,7 +713,7 @@
 		</script>
 		<script>
 			var timeline = {
-			        "validateTitle":21.887,"validateTitle":23.28,"validateTitle":20.148,"validateTitle123":10.213,"validateTitle123":2.936,"validateTitle123":1.708
+			        "validateTitle7":11.23,"validateTitle3":5.831,"validateTitle1":3.938,"validateTitle2":0.552,"validateTitle4":0.577,"validateTitle8":0.48
 			};
 		</script>
 		<script src='https://cdn.rawgit.com/extent-framework/extent-github-cdn/master/v3html/js/extent.js' type='text/javascript'></script>

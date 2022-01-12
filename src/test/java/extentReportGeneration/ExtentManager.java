@@ -10,7 +10,7 @@ public class ExtentManager {
 	
 	public static  ExtentReports getReport()
 	{
-		reporter=new ExtentHtmlReporter(System.getProperty("user.dir")+"\\ExtentReport\\extentreport.html");
+		reporter=new ExtentHtmlReporter(System.getProperty("user.dir")+"\\ExtentReport\\Extentreport.html");
 		reporter.config().setReportName("Automation Test Report");
 		reporter.config().setDocumentTitle("Report");
 		
